@@ -34,28 +34,21 @@ The application has been created using MVC design pattern with the following str
 -FlightRest: REST Controller which receive the request with the given parammeters(departure,arrival,departureDateTime,arrivalDateTime).
 
 -FlightController: 
-				  -Returns a list containing all direct flights.
-				  
-				  -Returns a list containing all interconnnected flights.
+		-Returns a list containing all direct flights.
+		-Returns a list containing all interconnnected flights.
 				  
 -RouteService: 
-				 -Returns a Map of routes. The key is the arrival IATA airport code The value is a list containing all IATA departure airport codes.
-				  Routes in the map are direct between the airport key and each airport in the value list.
+		-Returns a Map of routes. The key is the arrival IATA airport code The value is a list containing all IATA departure 	                   airport codes. Routes in the map are direct between the airport key and each airport in the value list.
 				  
 				  
 -FlightService:
-				-Returns a Schedule containg the list of all direct flights.
-				
-				-Returns a list of maps for interconnected flights. In the list, each Map contains two items. The first item of the Map is the flight from the departure airport to the connection airport.
-				 The second item of the Map is the flight from the connection airport to the arrival airport.
+		-Returns a Schedule containg the list of all direct flights.
+		-Returns a list of maps for interconnected flights. In the list, each Map contains two items. The first item of the Map 		  is the flight from the departure airport to the connection airport. The second item of the Map is the flight 				  from the connection airport to the arrival airport.
 					
 
 -InterconnectionService: 
-
-				-Returns a list containing legs for all direct flights.
-				
-				-Returns a list containing legs for interconnected flights.
-				
+		-Returns a list containing legs for all direct flights.
+		-Returns a list containing legs for interconnected flights.
 				
 
 Building the applicaction a .jar is generated.  To run it, execute:
