@@ -1,6 +1,5 @@
 # interconnectingflights
-Interconnecting Flights
-InterconnectingFlights is a Spring Boot application based RESTFUL Api which serves information about possible direct
+Interconnecting Flights is a Spring Boot application based RESTFUL Api which serves information about possible direct
 and interconnected flights (maximum 1 stop) based on the data consumed from external APIs.
 
 The application can consume data from the following two microservices: - Routes API:
